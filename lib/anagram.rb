@@ -7,7 +7,7 @@ end
 
 
 def match(array)
-array.select {|words| words.  }
+array.select {|words| words.split  }
 
 end 
  
