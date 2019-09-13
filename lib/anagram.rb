@@ -7,7 +7,7 @@ end
 
 
 def match(array)
-array.select {|words| words == @word.reverse ||  }
+array.select {|words| words.  }
 
 end 
  
