@@ -6,8 +6,8 @@ def initialize(word)
 end 
 
 
-def match
-@word.select {|words| words == words.reverse}
+def match(array)
+array.select {|words| words == @word.reverse}
 
 end 
  
