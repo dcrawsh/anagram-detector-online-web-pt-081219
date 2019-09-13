@@ -7,8 +7,8 @@ end
 
 
 def match
-word.select {|words| words == words.reverse}
+@word.select {|words| words == words.reverse}
 end 
-
+end 
  
 end 
